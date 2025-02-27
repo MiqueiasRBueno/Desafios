@@ -3,3 +3,5 @@
 
 carro_km_rodados = float(input('Digite quantos quilômetros o veículo rodou: '))
 carro_dias_locados = float(input('Digite a quantidade de dias locados: '))
+total_pagar = (carro_km_rodados * 0.15) + (carro_dias_locados * 60)
+print(f'O total a pagar pela locação do veículo é de R${total_pagar:.2f}')
