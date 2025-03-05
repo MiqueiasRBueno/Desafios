@@ -7,3 +7,4 @@ cateto_adjacente = int(input('Digite a medida do cateto adjacente "b": '))
 catetos = (cateto_oposto ** 2) + (cateto_adjacente ** 2)
 hipotenusa = sqrt(catetos)
 print(f'A hipotensa dos catetos "a":{cateto_oposto:.2f} e "b":{cateto_adjacente:.2f} é {hipotenusa:.2f}')
+
